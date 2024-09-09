@@ -1,13 +1,13 @@
 import React from "react";
 import logo from "../assets/logo.png";
 
-const Login = () => {
+const Signup = () => {
   return (
     <div className="flex flex-1 flex-col justify-center px-0 py-8 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm mt-0">
         <img alt="Your Company" src={logo} className="mx-auto w-40 h-40" />
         <h2 className="mt-4 text-center text-2xl font-bold leading-9 tracking-tight">
-          Log in
+          Create account
         </h2>
       </div>
 
@@ -56,9 +56,9 @@ const Login = () => {
                 type="password"
                 required
                 className="block w-full rounded-md border-0 py-1.5
-               text-gray-900 shadow-sm ring-1 ring-inset
-                ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset
-                 focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                 text-gray-900 shadow-sm ring-1 ring-inset
+                  ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset
+                   focus:ring-indigo-600 sm:text-sm sm:leading-6"
               />
             </div>
           </div>
@@ -87,4 +87,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Signup;

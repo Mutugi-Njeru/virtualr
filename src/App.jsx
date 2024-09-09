@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <div className="max-w-6xl mx-auto pt-20 px-6">
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
           {/* Add more routes here */}
         </Routes>
 
